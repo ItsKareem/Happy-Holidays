@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: 'Gaegu', cursive;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    background-color: #810610;
+    color: #ffffff;
+    background-image: url('https://www.transparenttextures.com/patterns/3px-tile.png');
+    background-repeat: repeat;
+}
+
+/* Header */
+header {
+    font-family: "Dancing Script", serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main Section */
+.box {
+    margin: 20px;
+    padding: 20px;
+    background: #141118;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.button {
+    background-color: #000000;
+    color: white;
+    font-family: "Micro 5", serif;
+    font-size: 1.5em; /* Larger font size */
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #af1f2f;
+    border-radius: 10px;
+    padding: 20px 30px; /* Larger padding for better visibility */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two buttons per row */
+    gap: 20px; /* Space between buttons */
+    justify-content: center;
+    align-items: center;
+    max-width: 600px; /* Center buttons */
+    margin: 0 auto;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: #af1f2f; /* Festive dark red on hover */
+}
+
+/* Ensure the anchor tag inside button adopts the button styles */
+.button a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+/* Image Styling */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holiday-image {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    font-family: "Dancing Script", serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #FFD08F; /* Bright green for Christmas */
+    text-decoration: underline;
+}
